@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.navigation {
+    background-color: black;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    position: relative;
+    color: green;
+}
+
+.create-box {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: bottom;
+    max-height: 40px; /* brings up the bottom of the create box*/
+}
+
+.totalCodedCounter {
+    border: black;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;   
+    font-weight: bold;
+}
+
+.counter {
+    background-color: black;
+    padding: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    background-color: black;
+}
+
+.days {
+    text-align: top;
+    padding-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: black;
+    color: green;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+input:active {
+    color: green;
+}
+
+.check-container {
+    margin-right: 15px;
+    color: green;
+}
+
+.submit_new {
+    padding: 11px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: black;
+    color: green;
+}
+
+.entry-list {
+    color: green;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border-style: solid;
+    margin: 0 1em 1em 0;
+    list-style-type: none;
+    padding-left: 30px;
+  }
+
+.trash-btn {
+    float:right;
+    color: green;
+    background-color: black;
+    border-radius: 50px;
+    padding: 2.5px;
+}
+
+.trash-btn:hover {
+    color: red;
+}
+  
