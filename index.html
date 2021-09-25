@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Did You Code Today?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navigation">
+                <h1>Did You Code Today?</h1>
+            </div>
+        </div> <!-- container div-->
+    </header>
+        <div class="create-box">
+            <label class="custom-checkbox">
+                
+                <input id="check_yes" type="checkbox" />
+                <label for="check_yes">Yes</label>
+                
+               
+                <input id="check_no" type="checkbox" />
+                <label for="check_no">No</label>
+            </label>
+                <input id="date_entry" type="date" name="date_of_entry"></label>
+                <button class="submit_new">Submit</button>
+        </div> <!-- create-box div -->
+         <div class="totalCodedCounter">
+             <p>You have coded for:</p>
+             <div class="counter"></div>
+             <div class="days">Total Days!</div>
+        </div> 
+        <div id="div-container">
+        </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
