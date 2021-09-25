@@ -81,4 +81,3 @@ function removeDateCounter() {
 }
 
 console.log("testdata");
-console.log("testdata2");
